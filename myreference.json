@@ -1,0 +1,56 @@
+{
+"title": "Health Status response",
+        "required": [
+          "status",
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "example": 200
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "example": [
+                {
+                  "item": "SSO",
+                  "timestamp": "2017-01-21T18:25:43.511Z",
+                  "description": "SSO database is responding",
+                  "elapsedMillis": "121",
+                  "status": 200
+                },
+                {
+                  "item": "CSP",
+                  "timestamp": "2017-01-21T18:25:43.511Z",
+                  "description": "CSP database is responding",
+                  "elapsedMillis": "121",
+                  "status": 200
+                }
+              ]
+            },
+            "description": ""
+          }
+        },
+        "example": {
+          "status": 200,
+          "items": [
+            {
+              "item": "SSO",
+              "timestamp": "2017-01-21T18:25:43.511Z",
+              "description": "SSO database is responding",
+              "elapsedMillis": "121",
+              "status": 200
+            },
+            {
+              "item": "CSP",
+              "timestamp": "2017-01-21T18:25:43.511Z",
+              "description": "CSP database is responding",
+              "elapsedMillis": "121",
+              "status": 200
+            }
+          ]
+        } }
