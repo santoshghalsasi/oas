@@ -1,0 +1,10 @@
+{
+  "generator-openapi-repo": {
+    "importExistingSpec": false,
+    "name": "PetStore",
+    "repo": "APIs.guru/PetStore",
+    "splitSpec": true,
+    "samples": true,
+    "installSwaggerUI": true
+  }
+}
