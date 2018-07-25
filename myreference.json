@@ -1,4 +1,4 @@
-"title": "Health Status response",
+{"title": "Health Status response",
         "required": [
           "status",
           "items"
@@ -35,4 +35,4 @@
               "status": 200
             }
           ]
-        }
+        }}
